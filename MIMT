@@ -1,0 +1,27 @@
+📌 Project Title: Man-in-the-Middle (MITM) Attack Simulation
+🔹 Overview
+This project simulates a Man-in-the-Middle (MITM) attack using Ettercap & Wireshark in a controlled environment. The goal is to analyze network vulnerabilities, capture network traffic, and demonstrate detection and mitigation techniques.
+
+🔹 Tools Used
+🛠️ Ettercap – Packet sniffing and traffic interception
+🛠️ Wireshark – Packet analysis
+🛠️ Kali Linux – Attacker VM
+🛠️ Ubuntu VM – Client machine
+🔹 Attack Methodology
+Environment Setup
+Attacker: Kali Linux
+Victim: Ubuntu (targeted for interception)
+Execution of Attack
+ARP Poisoning with Ettercap
+Capturing HTTP traffic using Wireshark
+Detection & Mitigation
+Identifying MITM attack in Wireshark logs
+Implementing HTTPS, ARP Spoofing Detection Tools
+🔹 Results & Findings
+Captured network traffic successfully.
+Demonstrated ARP Spoofing Detection using system logs.
+Suggested security measures: HTTPS, ARP table static entries.
+🔹 Files Included
+     MPV4 video recording
+🔹 Ethical Considerations
+This simulation was conducted in an isolated lab environment for educational purposes only.
